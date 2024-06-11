@@ -1,7 +1,8 @@
-import { useState } from 'react';
 import './App.css';
 
-function App() {
+import { FC, useState } from 'react';
+
+const App: FC = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -20,6 +21,6 @@ function App() {
       </p>
     </>
   );
-}
+};
 
 export default App;
